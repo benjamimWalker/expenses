@@ -47,7 +47,7 @@ class _TransactionFormState extends State<TransactionForm> {
               minWidth: double.infinity,
               color: Theme.of(context).accentColor,
               textColor: Colors.yellowAccent,
-              child: Text('Nova transação'),
+              child: Text('Nova transação') ,
               onPressed: _submitForm,
             )
           ],
